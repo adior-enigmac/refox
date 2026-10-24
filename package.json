@@ -47,7 +47,7 @@
     "rollup-plugin-clear": "^2.0.7",
     "rollup-plugin-postcss": "^4.0.2",
     "rollup-plugin-typescript-paths": "^1.2.2",
-    "ts-jest": "^29.4.6",
+    "ts-jest": "^29.4.15",
     "tslib": "^2.0.0",
     "typescript": "^5.9.3",
     "web-ext": "^10.7.0"
