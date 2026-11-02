@@ -51,6 +51,9 @@
     "typescript": "^5.9.3",
     "web-ext": "^10.8.0"
   },
+  "resolutions": {
+    "minimatch": "^11.0.1"
+  },
   "webExt": {
     "verbose": false,
     "sourceDir": "./extension",
