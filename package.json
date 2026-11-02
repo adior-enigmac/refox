@@ -23,7 +23,7 @@
     "build": "run-s 'build:*' tests eslint",
     "build:compile": "rollup -c",
     "build:dist": "web-ext build",
-    "build:source": "bestzip artifacts/source.zip extension src tsconfig.json package.json yarn.lock rollup.config.mjs LICENSE README.md"
+    "build:source": "mkdir -p artifacts && zip -r artifacts/source.zip extension src tsconfig.json package.json yarn.lock rollup.config.mjs LICENSE README.md"
   },
   "devDependencies": {
     "@rollup/plugin-terser": "^1.0.0",
@@ -32,7 +32,6 @@
     "@types/jest": "^30.0.0",
     "@typescript-eslint/eslint-plugin": "^7.18.0",
     "@typescript-eslint/parser": "^7.18.0",
-    "bestzip": "^2.1.5",
     "eslint": "^8.57.1",
     "eslint-config-airbnb-typescript": "^18.0.0",
     "eslint-plugin-import": "^2.32.0",
