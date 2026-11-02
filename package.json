@@ -50,7 +50,7 @@
     "ts-jest": "^29.4.15",
     "tslib": "^2.0.0",
     "typescript": "^5.9.3",
-    "web-ext": "^10.7.0"
+    "web-ext": "^10.8.0"
   },
   "webExt": {
     "verbose": false,
