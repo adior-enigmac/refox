@@ -52,7 +52,8 @@
     "web-ext": "^10.8.0"
   },
   "resolutions": {
-    "minimatch": "^11.0.1"
+    "minimatch": "^11.0.1",
+    "deepmerge": "file:vendor/deepmerge"
   },
   "webExt": {
     "verbose": false,
